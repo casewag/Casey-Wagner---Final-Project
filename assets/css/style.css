@@ -1,0 +1,250 @@
+.routestitle	{
+	text-align: center;
+}
+.resourcestitle	{
+	margin-top: -75px;
+}
+.main-raised-routes	{
+	    margin: -275px 30px 0px;
+}
+.main-raised-about	{
+	    margin: -75px 30px 0px;
+}
+.routeicons	{
+	width: 50px;
+	height: 50px;
+	opacity: .72;
+}
+.routethumbs	{
+	display: inline-block;
+	width: 225px;
+	height: 225px;
+	margin: 25px;
+}
+.details	{
+	font-size: 18px;
+	
+	color: #3C4858;
+}
+.inverted {
+	filter: invert(100%);
+}
+.carouselimages	{
+	max-height: 300px;
+}
+.resourcebox	{
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+.col-md-6-v2	{
+	width: 100%;
+}
+/* HVRBOX */
+/* HVRBOX */
+/* HVRBOX */
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+/* HVRBOX */
+h5	{
+	display: inline-block;
+	width: 80%;
+	text-align: center;
+}
+.emaillink	{
+	font-size: 14px;
+	color: white;
+	text-decoration: underline;	
+}
+.hemingway-quote p small{
+	margin-left: 20px;
+	max-width: 90%;
+}
+.aboutdescrip	{
+	width: 75%;
+}
+.biodescrip	{
+	width: 100%;
+}
+.strava	{
+	margin-top: 45px;
+}
+.avatar {
+	text-align: center;
+	margin-top: -50px;
+	margin-left: 50px;
+}
+.name	{
+	text-align: center;
+}
+nav		{
+	text-align: right;
+}
+.btn.btn-white.btn-simple, .navbar .navbar-nav > li > a.btn.btn-white.btn-simple	{
+	text-align: right;
+}
+a, .desktop-routes-titles	{
+	color: #3C4858;
+	font-size: 1.3em;
+}
+.resource-links	{
+	color: white;
+	font-weight: bold;
+}
+/*SLIDESHOW*/
+/*SLIDESHOW*/
+/*SLIDESHOW*/
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    padding: 10px;    
+   	border-radius: 200px;
+}
+#slideshow > div { 
+    position: absolute; 
+    top: 5px; 
+    left: 5px; 
+    right: 5px; 
+    bottom: 5px;
+}
+.slideshowrounded	{
+	border-radius: 200px;
+}
+.aboutdescrip	{
+	margin: 0 50px 10px;
+}
+
+a:hover, a:focus {
+	color: #ff871e;
+}
+li:hover, li:focus	{
+	color: #ff871e;	
+}
+i:hover, i:focus	{
+	color: #ff871e;		
+}
+.responsiveCal {
+	position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+}
+.responsiveCal iframe {
+	position: absolute; top:0; left: 0; width: 100%; height: 100%;
+}
+.active-link	{
+	color: #ff871e;
+}
+.btn.btn-primary, .btn.btn-danger	{
+	background-color: #ff871e;
+}
+.btn.btn-primary, .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-danger:hover, .btn.btn-danger:focus	{
+	background-color: #ff871e;	
+}
+.form-control, .form-group.is-focused .form-control {
+    border: 0;
+    background-image: linear-gradient(#ff871e, #ff871e), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.is-focused label.control-label	{
+	color: #ff871e;
+}
+.well-sm {
+    margin-top: 20px;
+}    
+
+@media screen and (min-width:992px)	{
+	.desktop-routes-titles	{
+		display: none;
+	}
+	.resourcestitle	{
+		text-align: center;
+	}
+
+}
+@media screen and (max-width:992px)	{
+	.hvrbox .hvrbox-layer_top {
+		display: none;
+	}
+
+}
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE*/
+/**********        640 640 640 640      ***********/
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE*/
+@media screen and (max-width:640px)	{
+	.strava {
+		display: none;
+	}
+	h1, h2	{
+		font-size: 2em;
+	}
+	h4	{
+		font-size: 1em;
+	}
+	p, .resource-links	{
+		font-size: 1.3rem;
+	}
+	.resourcestitle	{
+		text-align: center;
+	}
+	.hvrbox .hvrbox-layer_top {
+		display: none;
+	}
+}
